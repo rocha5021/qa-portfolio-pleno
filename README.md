@@ -135,5 +135,6 @@ Relatórios podem ser publicados no GitHub Pages ou integrados ao CI.
 ---
 
 ## 👤 Sobre
-- **Contato:** marcus.rocha@email.com | **LinkedIn:** https://www.linkedin.com/in/marcus-rocha-qa
+
+- **Contato:** rocha_marcus@gmail.com | **LinkedIn:** https://www.linkedin.com/in/marcuxviniciusrocha
 - **Licença:** MIT
