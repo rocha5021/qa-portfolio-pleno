@@ -79,7 +79,7 @@ k6 run smoke.js
 Os workflows em `.github/workflows/` executam **Cypress**, **Newman**, **Robot** e **k6** em pushes e PRs para `main`.
 
 
-##Selenium + Cucumber + JUnit
+## 6) Selenium + Cucumber + JUnit
 Projeto de automação de testes UI utilizando Selenium WebDriver, Cucumber (BDD) e JUnit 5, aplicando o padrão Page Object Model.
 🚀 Tecnologias
 
@@ -96,6 +96,15 @@ Projeto de automação de testes UI utilizando Selenium WebDriver, Cucumber (BDD
     steps/ → Implementação dos passos
     pages/ → Page Objects
     utils/ → Configuração do driver
+
+
+# QA DBeaver/PostgreSQL Portfolio
+
+Portfólio de testes utilizando DBeaver com PostgreSQL, incluindo consultas, constraints, procedures e relatórios.
+
+# QA SQL Portfolio
+
+Portfólio de testes de Banco de Dados SQL, incluindo CRUD, integridade e regras de negócio.
 
 
 ---
