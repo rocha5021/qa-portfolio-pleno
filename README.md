@@ -1,4 +1,4 @@
-# Portfólio QA Pleno – {"Seu_Nome"}
+# Portfólio QA Pleno – {"Marcus Vinicius Rocha"}
 
 ![QA](https://img.shields.io/badge/QA-Testing-blue)
 ![Cypress](https://img.shields.io/badge/Cypress-UI%20Tests-brightgreen)
