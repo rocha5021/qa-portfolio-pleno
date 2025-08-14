@@ -78,6 +78,26 @@ k6 run smoke.js
 ## 📈 CI – GitHub Actions
 Os workflows em `.github/workflows/` executam **Cypress**, **Newman**, **Robot** e **k6** em pushes e PRs para `main`.
 
+
+##Selenium + Cucumber + JUnit
+Projeto de automação de testes UI utilizando Selenium WebDriver, Cucumber (BDD) e JUnit 5, aplicando o padrão Page Object Model.
+🚀 Tecnologias
+
+    Java 11+
+    Selenium WebDriver
+    Cucumber
+    JUnit 5
+    WebDriverManager
+    Maven
+
+📂 Estrutura
+
+    features/ → Cenários de teste no formato Gherkin
+    steps/ → Implementação dos passos
+    pages/ → Page Objects
+    utils/ → Configuração do driver
+
+
 ---
 
 ## 🧭 Roadmap
