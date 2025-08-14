@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "Echo API",
+    "_postman_id": "demo-echo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET Echo",
+      "request": {
+        "method": "GET",
+        "url": "https://postman-echo.com/get?hello=world"
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('status 200', () => pm.response.code === 200);",
+              "pm.test('tem hello', () => pm.response.json().args.hello === 'world');"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

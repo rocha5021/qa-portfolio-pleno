@@ -1,0 +1,11 @@
+{
+  "name": "api-postman",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "newman run collection.json --reporters cli"
+  },
+  "dependencies": {
+    "newman": "^6.1.0"
+  }
+}

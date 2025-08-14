@@ -1,0 +1,12 @@
+name: perf-k6
+on: [push, pull_request]
+jobs:
+  k6:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: performance-k6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: grafana/setup-k6-action@v1
+      - run: k6 run smoke.js
